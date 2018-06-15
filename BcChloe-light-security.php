@@ -6,7 +6,7 @@ Description: WordPress light security | nosniff header | xss protection header |
 Author: BcChloe
 Author URI: https://bcchloe.jp
 Text Domain: bcchloe-light-security
-Version: 1.1
+Version: 1.1.1
 License: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
 
@@ -19,8 +19,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 define( 'BC_LS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BC_LS_PLUGIN_URL', plugins_url( '' , __FILE__) );
 //global $foo;
-
-	add_action( 'init', array( 'BcChloe_Light_Security', 'bcchloe_light_security_init' ) );
 
 class BcChloe_Light_Security {
 
