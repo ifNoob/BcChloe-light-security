@@ -6,7 +6,7 @@
 * Tags: nosniff header | xss protection header | not iframe | Protected Page Cookie | Disable Pingbacks | Self Pingbacks
 * Requires at least: WP 4.x.x | PHP 7.2.x
 * Tested up to: 4.9.6
-* Stable tag: 1.1
+* Stable tag: 1.1.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,8 @@
 
 # == Changelog ==
 * Upgrade notice
+* = 1.1.1 =
+* 余分code削除
 
 * = 1.1 =
 * Bug Fixed
